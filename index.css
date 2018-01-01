@@ -15,7 +15,6 @@ h1 {
   margin: 0 auto;
 }
 .input-form {
-  background: palegreen;
   font-weight: 200;
   display: flex;
   justify-content: space-between;
@@ -28,7 +27,7 @@ h1 {
   padding: 10px;
 }
 #add-button {
-  background: #aaa;
+  background: #999;
   border: solid 0px;
   box-sizing: border-box;
   width: 100px;
