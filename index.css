@@ -1,0 +1,78 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+html {
+  font-family: 'Spoqa Han Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 100;
+}
+h1 {
+  font-weight: 200;
+  text-align: center;
+  font-size: 4em;
+  text-transform: capitalize;
+}
+.wrapper {
+  width: 80vw;
+  margin: 0 auto;
+}
+.input-form {
+  background: palegreen;
+  font-weight: 200;
+  display: flex;
+  justify-content: space-between;
+}
+#todo-input {
+  box-sizing: border-box;
+  height: 2em;
+  width: calc(100% - 100px);
+  font-size: 2em;
+  padding: 10px;
+}
+#add-button {
+  background: #aaa;
+  border: solid 0px;
+  box-sizing: border-box;
+  width: 100px;
+  height: 2em;
+  color: white;
+  font-size: 2em;
+  font-weight: inherit;
+}
+.complete {
+  text-decoration: line-through;
+  color: #aaa;
+  background: #eee;
+}
+
+/* .complete::after {
+  content: 'v';
+  color: red;
+} */
+
+#todo-list {
+  margin-top: 5px;
+  width: 100%;
+}
+.list-item {
+  font-size: 2em;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  padding: 0px 5px 10px 8px;
+}
+.list-item:hover {
+  color: #fff;
+  background: #ccc;
+}
+.remove-button {
+  position: absolute;
+  float: right;
+  top: 0;
+  right: 0;
+  width: 50px;
+  padding: 0px 0px 10px 0px;
+  text-align: center;
+}
+.remove-button:hover {
+  background: red;
+  color: white;
+}
