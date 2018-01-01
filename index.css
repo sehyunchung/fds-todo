@@ -22,7 +22,7 @@ h1 {
 #todo-input {
   box-sizing: border-box;
   height: 2em;
-  width: calc(100% - 100px);
+  width: calc(100% - 120px);
   font-size: 2em;
   padding: 10px;
 }
@@ -30,7 +30,7 @@ h1 {
   background: #999;
   border: solid 0px;
   box-sizing: border-box;
-  width: 100px;
+  width: 120px;
   height: 2em;
   color: white;
   font-size: 2em;
