@@ -37,6 +37,9 @@ h1 {
   font-weight: inherit;
   cursor: pointer;
 }
+#add-button:hover {
+  background: #aaa;
+}
 .complete {
   text-decoration: line-through;
   color: #aaa;
@@ -73,6 +76,6 @@ h1 {
   text-align: center;
 }
 .remove-button:hover {
-  background: red;
+  background: crimson;
   color: white;
 }
